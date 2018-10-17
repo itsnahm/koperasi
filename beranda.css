@@ -1,0 +1,222 @@
+* {margin:0}
+
+body {
+            font-family:Footlight MT Light, Adobe Caslon Pro Bold;
+}
+
+/*Mengatur huruf pada judul web di kiri atas*/
+h1{
+  font-family: Adobe Caslon Pro Bold;
+}
+
+/*Desain tulisan pada halaman login ("Masuk akun KOPERASINEJ")*/
+h2{
+  font-family: Adobe Caslon Pro Bold;
+  font-size: 30px;
+}
+
+/*Desain untuk tombol masuk*/
+#tombolmasuk{
+  border-radius: 3px;
+  width: 400px;
+  height: 30px;
+}
+
+/*Desain untuk kolom input ketika di klik*/
+input:focus {
+  outline: 3px solid #0080FF;
+}
+
+/*Desain tombol/button ketika diklik*/
+button:focus {
+    outline: 3px solid #0080FF;
+  }
+
+/*Box tulisan sambutan untuk di beranda*/
+#box{
+  font-family: Adobe Caslon Pro Bold;
+  text-align: justify;
+  padding: 15px;
+  width: 700px;
+  height: 80px;
+  background: #d1f9f9;
+  border: solid #339999 10px;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Kotak untuk tampilan beranda setelah login*/
+#kotak{
+				width:260px;
+				height:325px;
+				background:#FFF;
+				display: inline-block;
+				margin-left: 100px;
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 20px;
+			}
+
+
+ #selengkapnya{
+   margin-top: 10px;
+   width: 150px;
+   height: 25px;
+   border: 2px;
+   background: lightgrey;
+ }
+
+#tombolmasuk{
+  width: 200px;
+}
+
+/*Desain kotak pencarian*/
+#kotakpencarian{
+  border-radius: 5px;
+  width: 200px;
+  height: 25px;
+}
+
+#tombolcari{
+  background: lightgrey;
+  width: auto;
+  height: 25px;
+  border: 2px;
+}
+
+/*Desain setiap baris kategori produk pada menu Market (Produk Koperasinej)*/
+#baris1{
+  height: 350px;
+  background: #41afaf;
+  padding: 15px;
+}
+
+#baris2{
+  height: 350px;
+  background: #FFF;
+  padding: 15px;
+}
+
+/*Tulisan keterangan produk pada tabel produk di halaman */
+#keteranganproduk{
+  font-size: 12px;
+}
+
+/*Untuk tempat produk pada halaman Produk KOPERASINEJ*/
+#tabelproduk{
+  background: white;
+  padding: 10px;
+}
+
+
+.wrap {
+            width:auto;
+            margin:0 auto;
+}
+
+.header {
+            height: 70px;
+            background:#339999;
+            padding:20px;
+            color:#fff;
+
+}
+
+/*Untuk mengedit tampilkan navbar menu*/
+#menu{
+  margin-right: 5em;
+  font-size: 18px;
+  border-color: black;
+  border-right: 2px;
+  color: white;
+  margin-left: 60px;
+}
+
+
+form {
+  padding: 1rem;
+  margin-top: 1rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input{
+  width: 200px;
+  margin-bottom: 1em;
+  height: 30px;
+}
+
+
+label{
+  font-size: 20px;
+}
+
+
+    .clear {clear:both}
+
+.nav {
+            width:auto;
+            height: 25px;
+            background:#FFF;
+            padding:5px 20px;
+            color:#000;
+            padding-right: 10px;
+}
+
+.main {
+            width:100%;
+            background:#66CCCC;
+}
+
+
+/*Mengedit konten (badan) website*/
+.content {
+            width:100% auto;
+            background: #d1f9f9;
+            padding:2%;
+            min-height:400px;
+}
+
+/*.clear {clear:both}*/
+
+/*Mengatur footer website*/
+.footer {
+            width:auto;
+            height:auto;
+            padding:5px 10px;
+            background:#333;
+            color:#fff;
+}
+
+/*Mengatur dropdown menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdownmenu {
+    display: none;
+    background-color: white;
+    width: 200px;
+}
+
+.dropdownmenu a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdownmenu {
+    display: block;
+}
+
+#selesaimenambahkan{
+  width: auto;
+  height: 50px;
+  font-size: 22px;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Adobe Caslon Pro Bold;
+}
