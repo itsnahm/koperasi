@@ -26,7 +26,16 @@
               <td><label id="menu"><a href="#">Beranda</a></label></td>
 
               <td>
-              <label id="menu"><a href="#">Market</a></label></td>
+                <div class="dropdown">
+                <label id="menu"><a href="#">Market</a></label>
+                  <div class="dropdownmenu">
+                    <label id="menu"><a href="#">Produk KOPERASINEJ</a></label>
+                    <label id="menu"><a href="#">Keranjang</a></label>
+                    <label id="menu"><a href="#">Pembayaran</a></label>
+                    <label id="menu"><a href="#">Riwayat beli</a></label>
+                  </div>
+                </div>
+              </td>
               <td><label id="menu"><a href="#">Pembayaran tagihan</a></label></td>
               <td><label id="menu"><a href="#">Tabunganku</label></a></td>
               <td><label id="menu"><a href="#">Pengaturan</label></a></td>
@@ -36,7 +45,7 @@
     <div class="main">
 
         <div class="content">
-          <form>
+          <form name="masuk">
             <center><h2>Form Pembayaran Tabungan </h2> </center>
             <label id="tabungan" class="first-name">Total setoran tabungan :</label>
             <input id="namabarang" type="text">

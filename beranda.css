@@ -31,14 +31,14 @@ h2{
 
 button{
   margin-top: 10px;
-  width: 400px;
+  width: 450px;
   height: 35px;
   border-radius: 2px;
 }
 
 #tabungan {
   float: left;
-  width: 200px;
+  width: 250px;
 }
 
 #login{
@@ -92,7 +92,8 @@ button:focus {
  }
 
 #tombolmasuk{
-  width: 200px;
+  width: 400px;
+  height: 35px;
 }
 
 /*Desain kotak pencarian*/
@@ -160,8 +161,8 @@ button:focus {
 
 form {
   padding: 1rem;
-  margin-top: 1rem;
-  max-width: 400px;
+  margin-top: 10px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -174,7 +175,7 @@ form input{
 }
 
 #tombolbayartagihan{
-  width: 400px;
+  width: 500px;
   height: 35px;
   background-color: lightgrey;
   border-radius: 2px;
@@ -196,7 +197,7 @@ select {
 
 #tagihan{
   float: left;
-  width: 200px;
+  width: 300px;
 }
 
 

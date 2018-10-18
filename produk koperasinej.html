@@ -3,6 +3,7 @@
 <meta charset="utf-8">
 <title>KOPERASINEJ</title>
 <link href="beranda.css" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="https://mitologiandscience.files.wordpress.com/2012/09/koperasi1.jpg"/>
 </head>
 <body>
 <div class="wrap">
@@ -19,7 +20,17 @@
         <div class="nav">
             <tr>
               <td><label id="menu"><a href="#">Beranda</a></label></td>
-              <td><label id="menu"><a href="#">Market</a></label></td>
+              <td>
+                <div class="dropdown">
+                <label id="menu"><a href="#">Market</a></label>
+                  <div class="dropdownmenu">
+                    <label id="menu"><a href="#">Produk KOPERASINEJ</a></label>
+                    <label id="menu"><a href="#">Keranjang</a></label>
+                    <label id="menu"><a href="#">Pembayaran</a></label>
+                    <label id="menu"><a href="#">Riwayat beli</a></label>
+                  </div>
+                </div>
+              </td>
               <td><label id="menu"><a href="#">Pembayaran tagihan</a></label></td>
               <td><label id="menu"><a href="#">Tabunganku</label></a></td>
               <td><label id="menu"><a href="#">Pengaturan</label></a></td>
@@ -28,8 +39,11 @@
 
     <div class="main">
         <div class="content">
+          <center><h2>Produk KOPERASINEJ</h2><center>
+            <br>
 <center><input id="selesaimenambahkan" value="Klik di sini jika selesai memilih produk" type="submit"></center>
-<center><h2>Produk KOPERASINEJ</h2><center>
+<br>
+
 <div id="baris1">
 <label id="kategori">Alat tulis</label>
 <table id="tabelproduk">
